@@ -1,0 +1,32 @@
+.appbar{
+    z-index: 1000;
+    background-color: white !important;
+}
+
+.drawer{
+    z-index: 999;
+}
+
+.stack{
+    font-size: 20px;
+    color: black;
+    
+}
+
+.overflow{
+    color:orange;
+    margin-left: 3px;
+}
+
+.toggler-icon{
+    color: black;
+}
+
+.search-box{
+    border :1px solid black;
+    opacity: 0.5;
+}
+
+.search-icon{
+    color:black;
+}

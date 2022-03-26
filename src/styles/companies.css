@@ -1,0 +1,16 @@
+.companies-container{
+    margin-left: 250px;
+}
+    
+.companyname{
+    text-align: left;
+    margin-left: 0px;
+    margin-bottom: 3px;
+}
+.companylocation{
+    margin-bottom: 3px !important;
+}
+
+.company-info{
+  text-align: left;
+}
