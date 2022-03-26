@@ -5,7 +5,7 @@ import { API } from "./api";
 
 export function Question(){
 
-    const [question, setquestion] = useState(null);
+    const [question, setquestion] = useState([]);
 
     
     useEffect(() => {
@@ -18,16 +18,18 @@ export function Question(){
 
     return(
         <div className="question-container">
-           {question ? "": }
+            {question.map((ele)=>(
+               <Createquestion  question={ele.question}/>
+           ))}
         </div>
     )
 }
 
 
-function Createquestion(){
+function Createquestion({question}){
     return(
         <div className="contianer">
-
+              <h4>{question}</h4>
         </div>
     )
 }
